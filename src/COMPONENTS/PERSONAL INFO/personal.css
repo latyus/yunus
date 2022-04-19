@@ -1,0 +1,34 @@
+#section1{
+    background-color: black;
+    height: 500px;
+}
+.personal{
+    width: 60%;
+    padding-top: 7em;
+    margin: 0 auto;
+
+}
+p{
+    color: white;
+    font-size: 2em;
+    font-family: helvetica;
+    padding-top: 2em;
+    text-align: center;
+}
+.paren{
+    
+}
+
+table{
+    width: 100%;
+    border: 1px solid aqua;
+    border-collapse: collapse;
+    border-radius: 20px;
+    box-sizing: border-box;
+    color: aqua;
+}
+td,th{
+    border: 1px solid aqua;
+    padding: 2em;
+    text-align: center;
+}
