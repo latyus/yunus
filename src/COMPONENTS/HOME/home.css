@@ -1,6 +1,81 @@
+#parent{
+    z-index:1;
+    position: relative;
+    top: -4.1em;
+    border: 2px solid red;
+    margin-bottom: 0;
+
+}
+.child{
+    position: absolute;
+    background-image: url('../NAVBAR/image/bg7.avif') ;
+    top: -10em;
+    min-height: 990px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    z-index:2;
+
+    
+}
+
+
+.innersection{
+    margin-top: 20em;
+    min-width: 55%;
+    border-radius: 3em;
+    background-color: rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding-block: 5em;
+}
+
+.innersection .head{
+    text-transform: capitalize;
+    font-size: 3.4em;
+    padding-bottom: 1em;
+    color: white;
+
+}
+
+.innersection p{
+    font-size: 1.4em;
+    line-height: 1.7;
+    font-family: monospace;
+    padding-bottom: 1em;
+    color: white;
+
+
+
+}
+.btn{
+    padding:.4em 4.3em .4em 4.3em ;
+    font-size: 1.3em;
+    margin-top: 1.2em;
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 7px;
+    font-family: helvetica;
+
+}
+
+#section5{
+
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-image:url('../HOME/image/h4.jpg') ;
+}
+
 #section4{
-    padding: 5em;
-    background-color:#E5E3E4;
+
+    padding: 60em 5em 5em 5em;
+    background-color: #555555;
+    margin-bottom: 0;
+  
+
+
 }
 
 .image{
@@ -37,6 +112,8 @@
 
 
 }
+
+
 .boxes .box h3{
     padding-top: 1em;
     letter-spacing: .7em;
@@ -83,7 +160,7 @@
     #section4{
         padding: 2em;
         padding-right: .6em;
-        background-color:#E5E3E4;
+        /* background-color:#E5E3E4; */
     }
     .image,.aspect{
         float: none;

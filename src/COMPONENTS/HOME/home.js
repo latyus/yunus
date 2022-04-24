@@ -4,8 +4,18 @@ import All from "../DATA/items";
 
 const Home = ()=>{
     return(
+        <section id="parent">
+               <section className="child">
+                    <div className="innersection">  
+                    <div className="container">
+        <p className="head"> good food, great vibes</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, 
+        qui consectetur adipisicing elit. Nostrum, quiconsectetur adipisicing elit. Nostrum, quiconsectetur adipisicing elit. Nostrum,consectetur adipisicing elit. Nostrum, qui qui </p>
+        <button className="btn">book a table</button>
+        </div> 
+        </div>
+               </section>
         <section id="section4">
-
             <p className="header">
                 we feed hungry belly...
             </p>
@@ -13,7 +23,6 @@ const Home = ()=>{
             <div className="image">
             <img src="./image/hungry.jpg" alt="" />
 
-                {/* <img src="./image/bg1.jpg" alt="" /> */}
             </div>
         <div className="aspect">
             
@@ -23,7 +32,12 @@ const Home = ()=>{
           </div>
             </div>
        <div className="clr"></div>
-       
+       </section>
+       {/* <section id="section5">
+           <p className="head"> our restaurant</p>
+          
+
+       </section> */}
         </section>
     )
 }

@@ -1,18 +1,15 @@
 header{
-    min-height: 893px;
     color: white;
-    background-image: url('../NAVBAR/image/bg7.avif') ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-bottom: 2px solid #61DAFB;
-    background-position: center center;
-    border-bottom: none;
+    position: relative;
+    z-index: 5;
+
 }
 header nav{
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
     padding-top: 2em;
+
 }
 header .logo{
     font-family: sans-serif;
@@ -28,6 +25,7 @@ header span{
 .navbar{
     /* margin-top: 2.3em; */
     padding-top: 1em;
+
 }
 .navbar li{
     display: inline;
@@ -49,7 +47,6 @@ header span{
 }
 
 .navbar a:hover{
-    border-top: 4px solid red;
     transition: 2s;
 
 }
@@ -58,6 +55,7 @@ header span{
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .innersection{
@@ -67,6 +65,7 @@ header span{
     background-color: rgba(0, 0, 0, 0.1);
     text-align: center;
     padding-block: 5em;
+    
 }
 
 .innersection .head{

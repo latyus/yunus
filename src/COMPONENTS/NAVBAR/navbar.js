@@ -19,7 +19,7 @@ const Navbar =()=>{
                </div>
             </nav>
             
-            <section id="section2">
+            {/* <section id="section2">
 
             
     <div className="innersection">
@@ -30,7 +30,7 @@ const Navbar =()=>{
         <button className="btn">book a table</button>
 
     </div>
-    </section>
+    </section> */}
     </div>
         </header>
     )
