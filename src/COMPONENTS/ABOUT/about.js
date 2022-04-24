@@ -9,3 +9,6 @@ const About = () => {
 };
 
 export default About;
+// error: remote origin already exists.
+// remote: Permission to latyus/yunus.git denied to yunus2001.
+// fatal: unable to access 'https://github.com/latyus/yunus.git/': The requested URL returned error: 403
