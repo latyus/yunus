@@ -4,14 +4,14 @@ export const data = [
         img:'./image/hungry.jpg',
         description:'Lorem ipsum dolor sit amet.',
         name:' pizza',
-        price:'6.5$',
+        price:'35$',
 
     },
     {   id:2,
         img:'./image/bg2.jpg',
         description:'Lorem ipsum dolor sit amet.',
-        name:' rice',
-        price:'6.5$'
+        name:' meat',
+        price:'85$'
 
     },
 
@@ -19,34 +19,33 @@ export const data = [
         id:3,
         img:'./image/bg1.jpg',
         description:'Lorem ipsum dolor sit amet.',
-        name:' pizza',
-        price:'6.5$'
+        name:'beans',
+        price:'45$'
 
     },
     {   id:4,
         img:'./image/hungry.jpg',
         description:'Lorem ipsum dolor sit amet.',
-
-        name:' pizza',
-        price:'6.5$'
+        name:'swallow',
+        price:'23$'
 
     },
     {
         id:5,
         img:'./image/hungry.jpg',
         description:'Lorem ipsum dolor sit amet.',
-        name:' pizza',
-        price:'6.5$'
+        name:' salad',
+        price:'605$'
 
     },
     {
         id:6,
         img:'./image/hungry.jpg',
 
-        name:' pizza',
+        name:' fried yam',
         description:'Lorem ipsum dolor sit amet.',
 
-        price:'6.5$'
+        price:'95$'
 
     },
     {
@@ -55,40 +54,40 @@ export const data = [
         name:' pizza',
         description:'Lorem ipsum dolor sit amet.',
 
-        price:'6.5$'
+        price:'6$'
 
     },
     {   
         id:8,
         img:'./image/hungry.jpg',
-        name:' pizza',
+        name:'indomie',
         description:'Lorem ipsum dolor sit amet.',
 
-        price:'6.5$'
+        price:'34$'
 
     },
     {   
         id:9,
         img:'./image/hungry.jpg',
-        name:' pizza',
+        name:' spag',
         description:'Lorem ipsum dolor sit amet.',
-        price:'6.5$'
+        price:'35.5$'
 
     },
     {
         id:10,
         img:'./image/hungry.jpg',
-        name:' pizza',
+        name:' fish',
         description:'Lorem ipsum dolor sit amet.',
-        price:'6.5$'
+        price:'46.5$'
 
     },
     {   
         id:11,
         img:'./image/hungry.jpg',
-        name:' pizza',
+        name:'semo lina',
         description:'Lorem ipsum dolor sit amet.',
-        price:'6.5$'
+        price:'66.5$'
 
     },
 ]
